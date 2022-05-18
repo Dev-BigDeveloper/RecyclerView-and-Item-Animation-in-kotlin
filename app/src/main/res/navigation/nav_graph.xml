@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/allFragments">
+
+    <fragment
+        android:id="@+id/allFragments"
+        android:name="com.example.recyclerviewall.fragment.AllFragments"
+        android:label="fragment_all_fragments"
+        tools:layout="@layout/fragment_all_fragments" >
+        <action
+            android:id="@+id/action_allFragments_to_alfaAnimationFragment"
+            app:destination="@id/alfaAnimationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/alfaAnimationFragment"
+        android:name="com.example.recyclerviewall.fragment.AlfaAnimationFragment"
+        android:label="fragment_alfa_animation"
+        tools:layout="@layout/fragment_alfa_animation" />
+</navigation>

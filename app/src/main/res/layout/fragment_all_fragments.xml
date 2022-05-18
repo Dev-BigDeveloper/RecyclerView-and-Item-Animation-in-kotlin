@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".fragment.AllFragments">
+
+    <Button
+        android:id="@+id/alfa"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:text="Alfa Animation"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/rotate"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:text="Rotate animation"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/scale"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:text="Scale animation"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/translate"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:text="Translate animation"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/customer1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:text="Customer animation #1"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/customer2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:text="Customer animation #2"
+        android:textAllCaps="false" />
+
+</LinearLayout>
